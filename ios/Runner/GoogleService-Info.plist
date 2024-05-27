@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>647411955215-9rl8hg1bkjmimpaf63aj4s9el4j6p829.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.647411955215-9rl8hg1bkjmimpaf63aj4s9el4j6p829</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>647411955215-huhorep9nfuouea3hhrlfj7rvellnm9r.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCfTHI6-YrZbYt0rULA9UGO6GtoNlox9so</string>
+	<key>GCM_SENDER_ID</key>
+	<string>647411955215</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bit.entaMobile</string>
+	<key>PROJECT_ID</key>
+	<string>enta-mobile</string>
+	<key>STORAGE_BUCKET</key>
+	<string>enta-mobile.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:647411955215:ios:8e2a74db1f17c6750d957a</string>
+</dict>
+</plist>

@@ -35,16 +35,16 @@ PODS:
   - file_picker (0.0.1):
     - DKImagePickerController/PhotoGallery
     - Flutter
-  - Firebase/CoreOnly (8.11.0):
-    - FirebaseCore (= 8.11.0)
-  - Firebase/Crashlytics (8.11.0):
+  - Firebase/CoreOnly (9.0.0):
+    - FirebaseCore (= 9.0.0)
+  - Firebase/Crashlytics (9.0.0):
     - Firebase/CoreOnly
-    - FirebaseCrashlytics (~> 8.11.0)
+    - FirebaseCrashlytics (~> 9.0.0)
   - firebase_core (1.12.0):
-    - Firebase/CoreOnly (= 8.11.0)
+    - Firebase/CoreOnly (= 9.0.0)
     - Flutter
   - firebase_crashlytics (2.5.2):
-    - Firebase/Crashlytics (= 8.11.0)
+    - Firebase/Crashlytics (= 9.0.0)
     - firebase_core
     - Flutter
   - FirebaseCore (9.3.0):

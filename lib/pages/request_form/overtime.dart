@@ -906,12 +906,12 @@ class _OvertimeRequestPageState extends State<OvertimeRequestPage> {
           if (detailRequest != null) {
             if (detailRequest.beforeIn != null) {
               totalOTBefore = Jiffy(detailRequest.beforeOut)
-                  .diff(Jiffy(detailRequest.beforeIn), Units.MINUTE) as int?;
+                  .diff(Jiffy(detailRequest.beforeIn),Units.MINUTE) as int?;
             }
 
             if (detailRequest.afterIn != null) {
               totalOTAfter = Jiffy(detailRequest.afterOut)
-                  .diff(Jiffy(detailRequest.afterIn), Units.MINUTE) as int?;
+                  .diff(Jiffy(detailRequest.afterIn),Units.MINUTE) as int?;
             }
           }
         }

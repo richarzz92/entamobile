@@ -5,7 +5,6 @@ import 'dart:developer';
 
 import 'package:another_flushbar/flushbar.dart';
 import 'package:crypto/crypto.dart';
-import 'package:dio/adapter.dart';
 import 'package:dio/dio.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/foundation.dart';
@@ -101,8 +100,8 @@ class UIFunction {
           data: formData,
           onSendProgress: (int sent, int total) {},
           options: Options(
-            sendTimeout: 60000,
-            receiveTimeout: 60000,
+            sendTimeout: const Duration(seconds: 60000),
+            receiveTimeout: const Duration(seconds: 60000),
             headers: headers,
             method: method,
             responseType: ResponseType.json,
@@ -114,8 +113,8 @@ class UIFunction {
           data: formData,
           onSendProgress: (int sent, int total) {},
           options: Options(
-              sendTimeout: 60000,
-              receiveTimeout: 60000,
+              sendTimeout: const Duration(seconds: 60000),
+              receiveTimeout: const Duration(seconds: 60000),
               headers: headers,
               method: method,
               responseType: ResponseType.json),
@@ -373,4 +372,8 @@ class UIFunction {
     }
     return days;
   }
+}
+
+class DefaultHttpClientAdapter {
+  set onHttpClientCreate(HttpClient Function(HttpClient client) onHttpClientCreate) {}
 }

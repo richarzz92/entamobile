@@ -56,7 +56,7 @@ class _EmployeeModalState extends State<EmployeeModal> {
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize:
-                        Theme.of(context).primaryTextTheme.subtitle1!.fontSize,
+                        Theme.of(context).primaryTextTheme.titleMedium?.fontSize,
                     color: Theme.of(context).primaryColor,
                   ),
                 ),
@@ -103,7 +103,7 @@ class _EmployeeModalState extends State<EmployeeModal> {
                       style: TextStyle(
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
+                            .titleMedium!
                             .fontSize,
                       ),
                     ),
@@ -114,7 +114,7 @@ class _EmployeeModalState extends State<EmployeeModal> {
                       style: TextStyle(
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle2!
+                            .titleSmall!
                             .fontSize,
                       ),
                     ),
@@ -138,34 +138,30 @@ class _EmployeeModalState extends State<EmployeeModal> {
                   List<OvertimeEmployeeRequestModel> result = [];
                   var x = UIData.dummyEmployee
                       .where((element) => element.isSelected == true);
-                  if (x != null) {
-                    for (var element in x) {
-                      result.add(
-                        OvertimeEmployeeRequestModel(
-                          id: DateTime.now().millisecondsSinceEpoch,
-                          employee: element,
-                          date: [],
-                        ),
-                      );
-                    }
+                  for (var element in x) {
+                    result.add(
+                      OvertimeEmployeeRequestModel(
+                        id: DateTime.now().millisecondsSinceEpoch,
+                        employee: element,
+                        date: [],
+                      ),
+                    );
                   }
-                  Navigator.pop(context, result);
+                                  Navigator.pop(context, result);
                 } else {
                   List<LeaveEmployeeRequestModel> result = [];
                   var x = UIData.dummyEmployee
                       .where((element) => element.isSelected == true);
-                  if (x != null) {
-                    for (var element in x) {
-                      result.add(
-                        LeaveEmployeeRequestModel(
-                          id: DateTime.now().millisecondsSinceEpoch,
-                          employee: element,
-                          date: [],
-                        ),
-                      );
-                    }
+                  for (var element in x) {
+                    result.add(
+                      LeaveEmployeeRequestModel(
+                        id: DateTime.now().millisecondsSinceEpoch,
+                        employee: element,
+                        date: [],
+                      ),
+                    );
                   }
-                  Navigator.pop(context, result);
+                                  Navigator.pop(context, result);
                 }
               },
               child: Row(

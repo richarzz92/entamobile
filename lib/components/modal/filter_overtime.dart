@@ -84,14 +84,14 @@ class _FilterOvertimeModalState extends State<FilterOvertimeModal> {
           },
           child: Icon(
             Icons.close,
-            size: Theme.of(context).primaryTextTheme.headline6!.fontSize! + 1,
+            size: Theme.of(context).primaryTextTheme.titleLarge!.fontSize! + 1,
           ),
         ),
         middle: Text(
           "Filter",
           style: TextStyle(
             fontWeight: FontWeight.normal,
-            fontSize: Theme.of(context).primaryTextTheme.subtitle1!.fontSize,
+            fontSize: Theme.of(context).primaryTextTheme.titleMedium?.fontSize,
           ),
         ),
         trailing: InkWell(
@@ -108,7 +108,7 @@ class _FilterOvertimeModalState extends State<FilterOvertimeModal> {
             "Reset",
             style: TextStyle(
               color: Theme.of(context).primaryColor,
-              fontSize: Theme.of(context).primaryTextTheme.subtitle2!.fontSize,
+              fontSize: Theme.of(context).primaryTextTheme.titleSmall?.fontSize,
               fontWeight: FontWeight.w500,
             ),
           ),
@@ -135,8 +135,8 @@ class _FilterOvertimeModalState extends State<FilterOvertimeModal> {
                         fontWeight: FontWeight.bold,
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
-                            .fontSize,
+                            .titleMedium
+                            ?.fontSize,
                       ),
                     ),
                     subtitle: Text(
@@ -144,8 +144,8 @@ class _FilterOvertimeModalState extends State<FilterOvertimeModal> {
                       style: TextStyle(
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle2!
-                            .fontSize,
+                            .titleSmall
+                            ?.fontSize,
                       ),
                     ),
                     trailing: const Icon(Icons.chevron_right),
@@ -160,8 +160,8 @@ class _FilterOvertimeModalState extends State<FilterOvertimeModal> {
                       style: TextStyle(
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
-                            .fontSize,
+                            .titleMedium
+                            ?.fontSize,
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -184,8 +184,8 @@ class _FilterOvertimeModalState extends State<FilterOvertimeModal> {
                                 style: TextStyle(
                                   fontSize: Theme.of(context)
                                       .primaryTextTheme
-                                      .subtitle1!
-                                      .fontSize,
+                                      .titleMedium
+                                      ?.fontSize,
                                 ),
                               ),
                             ),

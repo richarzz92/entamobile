@@ -365,11 +365,11 @@ class _HomePageState extends State<HomePage> {
                 shape: BoxShape.rectangle,
                 borderRadius: BorderRadius.circular(13),
                 color: Colors.black12),
-            child: Center(
+            child: const Center(
               child: Padding(
-                padding: const EdgeInsets.only(left: 10, right: 10),
+                padding: EdgeInsets.only(left: 10, right: 10),
                 child: Row(
-                  children: const <Widget>[
+                  children: <Widget>[
                     Icon(
                       FontAwesomeIcons.powerOff,
                       size: 13,

@@ -335,8 +335,8 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                         fontWeight: FontWeight.bold,
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
-                            .fontSize,
+                            .titleMedium
+                            ?.fontSize,
                         color: Theme.of(context).primaryColor,
                       ),
                     ),
@@ -440,8 +440,8 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                         fontWeight: FontWeight.bold,
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
-                            .fontSize,
+                            .titleMedium
+                            ?.fontSize,
                         color: Theme.of(context).primaryColor,
                       ),
                     ),
@@ -795,7 +795,7 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
       icon: Icon(
         Icons.file_upload_rounded,
         color: Colors.white,
-        size: Theme.of(context).primaryTextTheme.headline6!.fontSize! - 1,
+        size: Theme.of(context).primaryTextTheme.titleLarge!.fontSize! - 1,
       ),
       label: const Text(
         "Choose file",
@@ -891,7 +891,7 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize:
-                          Theme.of(context).primaryTextTheme.caption!.fontSize,
+                          Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
                     ),
                   ),
                   Padding(
@@ -930,7 +930,7 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize:
-                          Theme.of(context).primaryTextTheme.caption!.fontSize,
+                          Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
                     ),
                   ),
                   Padding(
@@ -977,7 +977,7 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize:
-                          Theme.of(context).primaryTextTheme.caption!.fontSize,
+                          Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
                     ),
                   ),
                   Padding(
@@ -987,7 +987,7 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                         DateTime? result =
                             await getDate(selectedDate: startDate);
                         if (result != null) {
-                          if (startDate != null && startDate != result) {
+                          if (startDate != result) {
                             resetSelected = true;
                           }
                           if (requestState.leaveRequest.durationType!.id != 0) {
@@ -1073,8 +1073,8 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                               fontWeight: FontWeight.bold,
                               fontSize: Theme.of(context)
                                   .primaryTextTheme
-                                  .caption!
-                                  .fontSize,
+                                  .bodySmall
+                                  ?.fontSize,
                             ),
                           ),
                           Padding(
@@ -1084,7 +1084,7 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                                 DateTime? result =
                                     await getDate(selectedDate: endDate);
                                 if (result != null) {
-                                  if (endDate != null && endDate != result) {
+                                  if (endDate != result) {
                                     resetSelected = true;
                                   }
                                   endDate = result;
@@ -1153,7 +1153,7 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize:
-                          Theme.of(context).primaryTextTheme.caption!.fontSize,
+                          Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
                     ),
                   ),
                   Padding(
@@ -1177,7 +1177,7 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize:
-                          Theme.of(context).primaryTextTheme.caption!.fontSize,
+                          Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
                     ),
                   ),
                   Padding(
@@ -1211,7 +1211,7 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize:
-                            Theme.of(context).primaryTextTheme.caption!.fontSize,
+                            Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
                       ),
                     ),
                     buildAttachmentItem(),
@@ -1365,7 +1365,7 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                 child: SkeletonAnimation(
                   child: Container(
                     height:
-                        Theme.of(context).primaryTextTheme.subtitle1!.fontSize,
+                        Theme.of(context).primaryTextTheme.titleMedium?.fontSize,
                     decoration: BoxDecoration(
                       color: Theme.of(context).dividerColor,
                     ),
@@ -1379,8 +1379,8 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
                       child: Container(
                         height: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
-                            .fontSize,
+                            .titleMedium
+                            ?.fontSize,
                         decoration: BoxDecoration(
                           color: Theme.of(context).dividerColor,
                         ),

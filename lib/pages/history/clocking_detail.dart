@@ -222,16 +222,16 @@ class _ClockingHistoryDetailPageState extends State<ClockingHistoryDetailPage> {
                   style: TextStyle(
                       fontSize: Theme.of(context)
                           .primaryTextTheme
-                          .subtitle2!
-                          .fontSize),
+                          .titleSmall
+                          ?.fontSize),
                 ),
                 Text(
                   widget.data!.status!,
                   style: TextStyle(
                       fontSize: Theme.of(context)
                           .primaryTextTheme
-                          .subtitle2!
-                          .fontSize),
+                          .titleSmall
+                          ?.fontSize),
                 )
               ],
             ),

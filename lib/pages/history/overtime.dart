@@ -167,8 +167,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                         fontWeight: FontWeight.bold,
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
-                            .fontSize,
+                            .titleMedium
+                            ?.fontSize,
                         color: Theme.of(context).primaryColor,
                       ),
                     ),
@@ -205,8 +205,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                   style: TextStyle(
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .caption!
-                                        .fontSize,
+                                        .bodySmall
+                                        ?.fontSize,
                                   ),
                                 ),
                                 subtitle: Text(
@@ -215,8 +215,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -232,8 +232,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                   style: TextStyle(
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .caption!
-                                        .fontSize,
+                                        .bodySmall
+                                        ?.fontSize,
                                   ),
                                 ),
                                 subtitle: Text(
@@ -242,8 +242,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -259,8 +259,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                   style: TextStyle(
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .caption!
-                                        .fontSize,
+                                        .bodySmall
+                                        ?.fontSize,
                                   ),
                                 ),
                                 subtitle: Text(
@@ -270,8 +270,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -295,8 +295,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -318,8 +318,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                         style: TextStyle(
                                           fontSize: Theme.of(context)
                                               .primaryTextTheme
-                                              .subtitle1!
-                                              .fontSize,
+                                              .titleMedium
+                                              ?.fontSize,
                                         ),
                                       ),
                                       subtitle: Text(
@@ -329,8 +329,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                         style: TextStyle(
                                           fontSize: Theme.of(context)
                                               .primaryTextTheme
-                                              .caption!
-                                              .fontSize,
+                                              .bodySmall
+                                              ?.fontSize,
                                         ),
                                       ),
                                       trailing: Text(
@@ -341,8 +341,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                           fontWeight: FontWeight.bold,
                                           fontSize: Theme.of(context)
                                               .primaryTextTheme
-                                              .caption!
-                                              .fontSize,
+                                              .bodySmall
+                                              ?.fontSize,
                                         ),
                                       ),
                                     );
@@ -373,8 +373,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -401,8 +401,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                             style: TextStyle(
                                               fontSize: Theme.of(context)
                                                   .primaryTextTheme
-                                                  .subtitle1!
-                                                  .fontSize,
+                                                  .titleMedium
+                                                  ?.fontSize,
                                               fontWeight: FontWeight.bold,
                                             ),
                                           ),
@@ -421,8 +421,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                                   style: TextStyle(
                                                     fontSize: Theme.of(context)
                                                         .primaryTextTheme
-                                                        .caption!
-                                                        .fontSize,
+                                                        .bodySmall
+                                                        ?.fontSize,
                                                   ),
                                                 ),
                                                 subtitle: Text(
@@ -430,8 +430,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                                   style: TextStyle(
                                                     fontSize: Theme.of(context)
                                                         .primaryTextTheme
-                                                        .subtitle1!
-                                                        .fontSize,
+                                                        .titleMedium
+                                                        ?.fontSize,
                                                   ),
                                                 ),
                                               ),
@@ -449,8 +449,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                                   style: TextStyle(
                                                     fontSize: Theme.of(context)
                                                         .primaryTextTheme
-                                                        .caption!
-                                                        .fontSize,
+                                                        .bodySmall
+                                                        ?.fontSize,
                                                   ),
                                                 ),
                                                 subtitle: Text(
@@ -458,8 +458,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                                   style: TextStyle(
                                                     fontSize: Theme.of(context)
                                                         .primaryTextTheme
-                                                        .subtitle1!
-                                                        .fontSize,
+                                                        .titleMedium
+                                                        ?.fontSize,
                                                   ),
                                                 ),
                                               ),
@@ -477,8 +477,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                                   style: TextStyle(
                                                     fontSize: Theme.of(context)
                                                         .primaryTextTheme
-                                                        .caption!
-                                                        .fontSize,
+                                                        .bodySmall
+                                                        ?.fontSize,
                                                   ),
                                                 ),
                                                 subtitle: Text(
@@ -486,8 +486,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                                   style: TextStyle(
                                                     fontSize: Theme.of(context)
                                                         .primaryTextTheme
-                                                        .subtitle1!
-                                                        .fontSize,
+                                                        .titleMedium
+                                                        ?.fontSize,
                                                   ),
                                                 ),
                                               ),
@@ -505,8 +505,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                                   style: TextStyle(
                                                     fontSize: Theme.of(context)
                                                         .primaryTextTheme
-                                                        .caption!
-                                                        .fontSize,
+                                                        .bodySmall
+                                                        ?.fontSize,
                                                   ),
                                                 ),
                                                 subtitle: Text(
@@ -514,8 +514,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                                   style: TextStyle(
                                                     fontSize: Theme.of(context)
                                                         .primaryTextTheme
-                                                        .subtitle1!
-                                                        .fontSize,
+                                                        .titleMedium
+                                                        ?.fontSize,
                                                   ),
                                                 ),
                                               ),
@@ -529,8 +529,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                             style: TextStyle(
                                               fontSize: Theme.of(context)
                                                   .primaryTextTheme
-                                                  .caption!
-                                                  .fontSize,
+                                                  .bodySmall
+                                                  ?.fontSize,
                                             ),
                                           ),
                                           subtitle: Text(
@@ -538,8 +538,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                                             style: TextStyle(
                                               fontSize: Theme.of(context)
                                                   .primaryTextTheme
-                                                  .subtitle1!
-                                                  .fontSize,
+                                                  .titleMedium
+                                                  ?.fontSize,
                                             ),
                                           ),
                                         ),
@@ -641,8 +641,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                       style: TextStyle(
                           fontSize: Theme.of(context)
                               .primaryTextTheme
-                              .subtitle2!
-                              .fontSize),
+                              .titleSmall
+                              ?.fontSize),
                     ),
                     Text(
                       deviceState.overtimeHistoryList[i].status!,
@@ -651,8 +651,8 @@ class _OvertimeHistoryPageState extends State<OvertimeHistoryPage> {
                           fontStyle: FontStyle.italic,
                           fontSize: Theme.of(context)
                               .primaryTextTheme
-                              .caption!
-                              .fontSize),
+                              .bodySmall
+                              ?.fontSize),
                     )
                   ],
                 ),

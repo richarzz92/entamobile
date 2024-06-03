@@ -290,10 +290,8 @@ class DeviceState with ChangeNotifier {
             if (result.data[1].toString() == "-") {
               leaveBalance = null;
             } else {
-              if (result.data[1].toString() != null) {
-                leaveBalance = double.parse(result.data[1].toString());
-              }
-            }
+              leaveBalance = double.parse(result.data[1].toString());
+                        }
           } else {
             leaveBalance = null;
           }

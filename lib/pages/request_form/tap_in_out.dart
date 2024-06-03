@@ -166,8 +166,8 @@ class _TapInOutPageState extends State<TapInOutPage> {
                         fontWeight: FontWeight.bold,
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
-                            .fontSize,
+                            .titleMedium
+                            ?.fontSize,
                         color: Theme.of(context).primaryColor,
                       ),
                     ),
@@ -516,7 +516,7 @@ class _TapInOutPageState extends State<TapInOutPage> {
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize:
-                        Theme.of(context).primaryTextTheme.caption!.fontSize,
+                        Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
                   ),
                 ),
                 Padding(

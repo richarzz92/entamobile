@@ -197,16 +197,16 @@ class _HistoryDetailPageState extends State<HistoryDetailPage> {
                   style: TextStyle(
                       fontSize: Theme.of(context)
                           .primaryTextTheme
-                          .subtitle2!
-                          .fontSize),
+                          .titleSmall
+                          ?.fontSize),
                 ),
                 Text(
                   widget.data!.status!,
                   style: TextStyle(
                       fontSize: Theme.of(context)
                           .primaryTextTheme
-                          .subtitle2!
-                          .fontSize),
+                          .titleSmall
+                          ?.fontSize),
                 )
               ],
             ),

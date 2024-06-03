@@ -153,7 +153,7 @@ class _OvertimeModalState extends State<OvertimeModal> {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize:
-                          Theme.of(context).primaryTextTheme.subtitle1!.fontSize,
+                          Theme.of(context).primaryTextTheme.titleMedium?.fontSize,
                       color: Theme.of(context).primaryColor,
                     ),
                   ),
@@ -169,8 +169,8 @@ class _OvertimeModalState extends State<OvertimeModal> {
                         fontWeight: FontWeight.bold,
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
-                            .fontSize,
+                            .titleMedium
+                            ?.fontSize,
                         color: Theme.of(context).primaryColor,
                       ),
                     ),
@@ -205,8 +205,8 @@ class _OvertimeModalState extends State<OvertimeModal> {
                             fontWeight: FontWeight.bold,
                             fontSize: Theme.of(context)
                                 .primaryTextTheme
-                                .caption!
-                                .fontSize,
+                                .bodySmall
+                                ?.fontSize,
                           ),
                         ),
                         InkWell(
@@ -293,8 +293,8 @@ class _OvertimeModalState extends State<OvertimeModal> {
                             fontWeight: FontWeight.bold,
                             fontSize: Theme.of(context)
                                 .primaryTextTheme
-                                .caption!
-                                .fontSize,
+                                .bodySmall
+                                ?.fontSize,
                           ),
                         ),
                         InkWell(
@@ -395,8 +395,8 @@ class _OvertimeModalState extends State<OvertimeModal> {
                             fontWeight: FontWeight.bold,
                             fontSize: Theme.of(context)
                                 .primaryTextTheme
-                                .caption!
-                                .fontSize,
+                                .bodySmall
+                                ?.fontSize,
                           ),
                         ),
                         InkWell(
@@ -483,8 +483,8 @@ class _OvertimeModalState extends State<OvertimeModal> {
                             fontWeight: FontWeight.bold,
                             fontSize: Theme.of(context)
                                 .primaryTextTheme
-                                .caption!
-                                .fontSize,
+                                .bodySmall
+                                ?.fontSize,
                           ),
                         ),
                         InkWell(

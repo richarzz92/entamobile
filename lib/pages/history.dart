@@ -150,16 +150,16 @@ class _HistoryPageState extends State<HistoryPage> {
                       style: TextStyle(
                           fontSize: Theme.of(context)
                               .primaryTextTheme
-                              .subtitle2!
-                              .fontSize),
+                              .titleSmall
+                              ?.fontSize),
                     ),
                     Text(
                       historyList[i].status!,
                       style: TextStyle(
                           fontSize: Theme.of(context)
                               .primaryTextTheme
-                              .subtitle2!
-                              .fontSize),
+                              .titleSmall
+                              ?.fontSize),
                     )
                   ],
                 ),

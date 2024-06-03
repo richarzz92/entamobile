@@ -172,8 +172,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                         fontWeight: FontWeight.bold,
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
-                            .fontSize,
+                            .titleMedium
+                            ?.fontSize,
                         color: Theme.of(context).primaryColor,
                       ),
                     ),
@@ -210,8 +210,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                   style: TextStyle(
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .caption!
-                                        .fontSize,
+                                        .bodySmall
+                                        ?.fontSize,
                                   ),
                                 ),
                                 subtitle: Text(
@@ -220,8 +220,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -237,8 +237,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                   style: TextStyle(
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .caption!
-                                        .fontSize,
+                                        .bodySmall
+                                        ?.fontSize,
                                   ),
                                 ),
                                 subtitle: Text(
@@ -247,8 +247,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -264,8 +264,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                   style: TextStyle(
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .caption!
-                                        .fontSize,
+                                        .bodySmall
+                                        ?.fontSize,
                                   ),
                                 ),
                                 subtitle: Text(
@@ -274,8 +274,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -291,8 +291,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                   style: TextStyle(
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .caption!
-                                        .fontSize,
+                                        .bodySmall
+                                        ?.fontSize,
                                   ),
                                 ),
                                 subtitle: Text(
@@ -301,8 +301,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -318,8 +318,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                   style: TextStyle(
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .caption!
-                                        .fontSize,
+                                        .bodySmall
+                                        ?.fontSize,
                                   ),
                                 ),
                                 subtitle: Text(
@@ -330,8 +330,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -347,8 +347,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                   style: TextStyle(
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .caption!
-                                        .fontSize,
+                                        .bodySmall
+                                        ?.fontSize,
                                   ),
                                 ),
                                 subtitle: Text(
@@ -358,8 +358,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -383,8 +383,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -406,8 +406,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                         style: TextStyle(
                                           fontSize: Theme.of(context)
                                               .primaryTextTheme
-                                              .subtitle1!
-                                              .fontSize,
+                                              .titleMedium
+                                              ?.fontSize,
                                         ),
                                       ),
                                       subtitle: Text(
@@ -417,8 +417,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                         style: TextStyle(
                                           fontSize: Theme.of(context)
                                               .primaryTextTheme
-                                              .caption!
-                                              .fontSize,
+                                              .bodySmall
+                                              ?.fontSize,
                                         ),
                                       ),
                                       trailing: Text(
@@ -429,8 +429,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                           fontWeight: FontWeight.bold,
                                           fontSize: Theme.of(context)
                                               .primaryTextTheme
-                                              .caption!
-                                              .fontSize,
+                                              .bodySmall
+                                              ?.fontSize,
                                         ),
                                       ),
                                     );
@@ -461,8 +461,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                     fontWeight: FontWeight.bold,
                                     fontSize: Theme.of(context)
                                         .primaryTextTheme
-                                        .subtitle1!
-                                        .fontSize,
+                                        .titleMedium
+                                        ?.fontSize,
                                   ),
                                 ),
                               ),
@@ -584,8 +584,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                             style: TextStyle(
                                 fontSize: Theme.of(context)
                                     .primaryTextTheme
-                                    .subtitle2!
-                                    .fontSize),
+                                    .titleSmall
+                                    ?.fontSize),
                           ),
                           Text(
                             deviceState.leaveHistoryList[i].status!,
@@ -597,8 +597,8 @@ class _LeaveHistoryPageState extends State<LeaveHistoryPage> {
                                 fontStyle: FontStyle.italic,
                                 fontSize: Theme.of(context)
                                     .primaryTextTheme
-                                    .caption!
-                                    .fontSize),
+                                    .bodySmall
+                                    ?.fontSize),
                           )
                         ],
                       ),

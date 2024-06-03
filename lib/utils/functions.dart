@@ -241,11 +241,11 @@ class UIFunction {
           return SafeArea(
             child: WillPopScope(
               onWillPop: () async => false,
-              child: AlertDialog(
+              child: const AlertDialog(
                 contentPadding:
-                    const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+                    EdgeInsets.symmetric(horizontal: 15, vertical: 20),
                 content: Row(
-                  children: const <Widget>[
+                  children: <Widget>[
                     LoadingWidget(),
                     SizedBox(
                       width: 20,

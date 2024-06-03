@@ -51,7 +51,7 @@ class _ErrorNoDataState extends State<ErrorNoData> {
                 style: TextStyle(
                   color: Theme.of(context).primaryColor,
                   fontSize:
-                      Theme.of(context).primaryTextTheme.subtitle2!.fontSize,
+                      Theme.of(context).primaryTextTheme.titleSmall?.fontSize,
                   fontWeight: FontWeight.bold,
                 ),
               ),

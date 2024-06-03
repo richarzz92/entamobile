@@ -106,12 +106,8 @@ class _RegisterPageState extends State<RegisterPage> {
           secure = false;
         }
         prefs.setBool("secure", secure);
-        if (uri.port != null) {
-          prefs.setString("host", "${uri.host}:${uri.port}");
-        } else {
-          prefs.setString("host", uri.host);
-        }
-        prefs.setString("prefix", uri.path);
+        prefs.setString("host", "${uri.host}:${uri.port}");
+              prefs.setString("prefix", uri.path);
         prefs.setString("company_code", _companyCodeText.text);
         Navigator.pop(context, 'Register was successfully');
       } else {

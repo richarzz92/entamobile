@@ -612,7 +612,7 @@ class _OvertimeRequestPageState extends State<OvertimeRequestPage> {
       icon: Icon(
         Icons.file_upload_rounded,
         color: Colors.white,
-        size: Theme.of(context).primaryTextTheme.headline6!.fontSize! - 1,
+        size: Theme.of(context).primaryTextTheme.titleLarge!.fontSize! - 1,
       ),
       label: const Text(
         "Choose file",
@@ -668,7 +668,7 @@ class _OvertimeRequestPageState extends State<OvertimeRequestPage> {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize:
-                            Theme.of(context).primaryTextTheme.caption!.fontSize,
+                            Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
                       ),
                     ),
                     Padding(
@@ -745,8 +745,8 @@ class _OvertimeRequestPageState extends State<OvertimeRequestPage> {
                           style: TextStyle(
                             fontSize: Theme.of(context)
                                 .primaryTextTheme
-                                .subtitle1!
-                                .fontSize,
+                                .titleMedium
+                                ?.fontSize,
                           ),
                         ),
                         subtitle: Text(
@@ -754,8 +754,8 @@ class _OvertimeRequestPageState extends State<OvertimeRequestPage> {
                           style: TextStyle(
                             fontSize: Theme.of(context)
                                 .primaryTextTheme
-                                .subtitle2!
-                                .fontSize,
+                                .titleSmall
+                                ?.fontSize,
                           ),
                         ),
                         trailing: IconButton(
@@ -784,7 +784,7 @@ class _OvertimeRequestPageState extends State<OvertimeRequestPage> {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize:
-                            Theme.of(context).primaryTextTheme.caption!.fontSize,
+                            Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
                       ),
                     ),
                     Padding(
@@ -972,8 +972,8 @@ class _OvertimeRequestPageState extends State<OvertimeRequestPage> {
                         fontWeight: FontWeight.bold,
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
-                            .fontSize,
+                            .titleMedium
+                            ?.fontSize,
                         color: shiftInfo != null
                             ? Theme.of(context).primaryColor
                             : Colors.white,

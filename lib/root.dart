@@ -526,8 +526,8 @@ class _MainPageState extends State<MainPage> {
                                       style: TextStyle(
                                         fontSize: Theme.of(context)
                                             .primaryTextTheme
-                                            .subtitle1!
-                                            .fontSize,
+                                            .titleMedium
+                                            ?.fontSize,
                                         fontWeight: FontWeight.bold,
                                         color: Theme.of(context).disabledColor,
                                       ),
@@ -578,7 +578,7 @@ class _MainPageState extends State<MainPage> {
             children: [
               SkeletonAnimation(
                 child: Container(
-                  height: Theme.of(context).primaryTextTheme.subtitle1!.fontSize,
+                  height: Theme.of(context).primaryTextTheme.titleMedium!.fontSize,
                   decoration: BoxDecoration(
                     color: Theme.of(context).dividerColor,
                   ),
@@ -589,7 +589,7 @@ class _MainPageState extends State<MainPage> {
               ),
               SkeletonAnimation(
                 child: Container(
-                  height: Theme.of(context).primaryTextTheme.subtitle1!.fontSize,
+                  height: Theme.of(context).primaryTextTheme.titleMedium!.fontSize,
                   decoration: BoxDecoration(
                     color: Theme.of(context).dividerColor,
                   ),
@@ -620,7 +620,7 @@ class _MainPageState extends State<MainPage> {
                 style: TextStyle(
                   color: Colors.white,
                   fontSize:
-                      Theme.of(context).primaryTextTheme.subtitle1!.fontSize,
+                      Theme.of(context).primaryTextTheme.titleMedium!.fontSize,
                 ),
               ),
               const SizedBox(
@@ -710,7 +710,7 @@ class _MainPageState extends State<MainPage> {
                     padding: const EdgeInsets.symmetric(horizontal: 10),
                     child: Container(
                       height:
-                          Theme.of(context).primaryTextTheme.subtitle2!.fontSize,
+                          Theme.of(context).primaryTextTheme.titleSmall!.fontSize,
                       decoration: BoxDecoration(
                         color: Theme.of(context).dividerColor,
                       ),
@@ -837,7 +837,7 @@ class _MainPageState extends State<MainPage> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Container(
-                height: Theme.of(context).primaryTextTheme.subtitle2!.fontSize,
+                height: Theme.of(context).primaryTextTheme.titleSmall!.fontSize,
                 decoration: BoxDecoration(
                   color: Theme.of(context).dividerColor,
                 ),
@@ -869,7 +869,7 @@ class _MainPageState extends State<MainPage> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Container(
-                height: Theme.of(context).primaryTextTheme.subtitle2!.fontSize,
+                height: Theme.of(context).primaryTextTheme.titleSmall!.fontSize,
                 decoration: BoxDecoration(
                   color: Theme.of(context).dividerColor,
                 ),

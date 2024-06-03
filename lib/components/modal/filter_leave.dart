@@ -120,8 +120,8 @@ class _FilterLeaveModalState extends State<FilterLeaveModal> {
                         fontWeight: FontWeight.bold,
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
-                            .fontSize,
+                            .titleMedium
+                            ?.fontSize,
                         color: Theme.of(context).primaryColor,
                       ),
                     ),
@@ -196,14 +196,14 @@ class _FilterLeaveModalState extends State<FilterLeaveModal> {
           },
           child: Icon(
             Icons.close,
-            size: Theme.of(context).primaryTextTheme.headline6!.fontSize! + 1,
+            size: Theme.of(context).primaryTextTheme.titleLarge!.fontSize! + 1,
           ),
         ),
         middle: Text(
           "Filter",
           style: TextStyle(
             fontWeight: FontWeight.normal,
-            fontSize: Theme.of(context).primaryTextTheme.subtitle1!.fontSize,
+            fontSize: Theme.of(context).primaryTextTheme.titleMedium!.fontSize,
           ),
         ),
         trailing: InkWell(
@@ -220,7 +220,7 @@ class _FilterLeaveModalState extends State<FilterLeaveModal> {
             "Reset",
             style: TextStyle(
               color: Theme.of(context).primaryColor,
-              fontSize: Theme.of(context).primaryTextTheme.subtitle2!.fontSize,
+              fontSize: Theme.of(context).primaryTextTheme.titleSmall!.fontSize,
               fontWeight: FontWeight.w500,
             ),
           ),
@@ -247,7 +247,7 @@ class _FilterLeaveModalState extends State<FilterLeaveModal> {
                         fontWeight: FontWeight.bold,
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
+                            .titleMedium!
                             .fontSize,
                       ),
                     ),
@@ -256,7 +256,7 @@ class _FilterLeaveModalState extends State<FilterLeaveModal> {
                       style: TextStyle(
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle2!
+                            .titleSmall!
                             .fontSize,
                       ),
                     ),
@@ -276,7 +276,7 @@ class _FilterLeaveModalState extends State<FilterLeaveModal> {
                         fontWeight: FontWeight.bold,
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
+                            .titleMedium!
                             .fontSize,
                       ),
                     ),
@@ -285,7 +285,7 @@ class _FilterLeaveModalState extends State<FilterLeaveModal> {
                       style: TextStyle(
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle2!
+                            .titleSmall!
                             .fontSize,
                       ),
                     ),
@@ -301,7 +301,7 @@ class _FilterLeaveModalState extends State<FilterLeaveModal> {
                       style: TextStyle(
                         fontSize: Theme.of(context)
                             .primaryTextTheme
-                            .subtitle1!
+                            .titleMedium!
                             .fontSize,
                         fontWeight: FontWeight.w600,
                       ),
@@ -325,7 +325,7 @@ class _FilterLeaveModalState extends State<FilterLeaveModal> {
                                 style: TextStyle(
                                   fontSize: Theme.of(context)
                                       .primaryTextTheme
-                                      .subtitle1!
+                                      .titleMedium!
                                       .fontSize,
                                 ),
                               ),

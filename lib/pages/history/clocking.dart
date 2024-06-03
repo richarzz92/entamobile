@@ -229,8 +229,8 @@ class _ClockingHistoryPageState extends State<ClockingHistoryPage> {
                         style: TextStyle(
                             fontSize: Theme.of(context)
                                 .primaryTextTheme
-                                .subtitle2!
-                                .fontSize),
+                                .titleSmall
+                                ?.fontSize),
                       ),
                       Text(
                         deviceState.clockingHistoryList[i].status!,
@@ -240,8 +240,8 @@ class _ClockingHistoryPageState extends State<ClockingHistoryPage> {
                             fontStyle: FontStyle.italic,
                             fontSize: Theme.of(context)
                                 .primaryTextTheme
-                                .caption!
-                                .fontSize),
+                                .bodySmall
+                                ?.fontSize),
                       )
                     ],
                   ),

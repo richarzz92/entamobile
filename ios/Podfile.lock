@@ -37,7 +37,7 @@ PODS:
     - Flutter
   - Firebase/CoreOnly (9.0.0):
     - FirebaseCore (= 9.0.0)
-  - Firebase/Crashlytics (9.0.0):
+  - Firebase/Crashlytics (10.25.0):
     - Firebase/CoreOnly
     - FirebaseCrashlytics (~> 9.0.0)
   - firebase_core (1.12.0):

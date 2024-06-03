@@ -642,7 +642,7 @@ class _OvertimeRequestPageState extends State<OvertimeRequestPage> {
           // confirmSubmit(state: 0);
         }
       },
-      style: ElevatedButton.styleFrom(primary: color),
+      style: ElevatedButton.styleFrom(backgroundColor: color),
       child: Text(title),
     );
   }

@@ -35,7 +35,7 @@ class _ErrorNoDataState extends State<ErrorNoData> {
               },
               style: ElevatedButton.styleFrom(
                 elevation: 0,
-                primary: Theme.of(context).primaryColor.withAlpha(50),
+                backgroundColor: Theme.of(context).primaryColor.withAlpha(50),
                 shape: const RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(
                     Radius.circular(20),

@@ -649,7 +649,7 @@ class _OvertimeModalState extends State<OvertimeModal> {
                         setState(() {});
                       },
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.grey,
+                        backgroundColor: Colors.grey,
                       ),
                       child: const Text("Reset"),
                     ),

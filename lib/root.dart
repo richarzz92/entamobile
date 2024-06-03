@@ -193,7 +193,7 @@ class _MainPageState extends State<MainPage> {
                           onClickClocking(type: 0);
                         },
                         style: ElevatedButton.styleFrom(
-                          primary: Colors.green,
+                          backgroundColor: Colors.green,
                         ),
                         child: const Text("Tap In"),
                       ),
@@ -207,7 +207,7 @@ class _MainPageState extends State<MainPage> {
                           onClickClocking(type: 1);
                         },
                         style: ElevatedButton.styleFrom(
-                          primary: Colors.red,
+                          backgroundColor: Colors.red,
                         ),
                         child: const Text("Tap Out"),
                       ),
@@ -410,7 +410,7 @@ class _MainPageState extends State<MainPage> {
             Text(
               UIData.appVersion,
               style: TextStyle(
-                fontSize: Theme.of(context).primaryTextTheme.caption!.fontSize,
+                fontSize: Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
               ),
             ),
           ],
@@ -799,8 +799,8 @@ class _MainPageState extends State<MainPage> {
                           style: TextStyle(
                             fontSize: Theme.of(context)
                                 .primaryTextTheme
-                                .caption!
-                                .fontSize,
+                                .bodySmall
+                                ?.fontSize,
                           ),
                         ),
                       )
@@ -908,7 +908,7 @@ class _MainPageState extends State<MainPage> {
               maxLines: 2,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(
-                fontSize: Theme.of(context).primaryTextTheme.caption!.fontSize,
+                fontSize: Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
               ),
             ),
           )
@@ -947,7 +947,7 @@ class _MainPageState extends State<MainPage> {
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
-              fontSize: Theme.of(context).primaryTextTheme.caption!.fontSize,
+              fontSize: Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
             ),
           ),
         )
@@ -1050,7 +1050,7 @@ class _MainPageState extends State<MainPage> {
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
-              fontSize: Theme.of(context).primaryTextTheme.caption!.fontSize,
+              fontSize: Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
             ),
           ),
         )
@@ -1089,7 +1089,7 @@ class _MainPageState extends State<MainPage> {
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
-              fontSize: Theme.of(context).primaryTextTheme.caption!.fontSize,
+              fontSize: Theme.of(context).primaryTextTheme.bodySmall?.fontSize,
             ),
           ),
         )

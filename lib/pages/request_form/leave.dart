@@ -824,7 +824,7 @@ class _LeaveRequestPageState extends State<LeaveRequestPage> {
           callAPI();
         }
       },
-      style: ElevatedButton.styleFrom(primary: color),
+      style: ElevatedButton.styleFrom(backgroundColor: color),
       child: Text(title),
     );
   }

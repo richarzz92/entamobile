@@ -61,12 +61,12 @@ PODS:
     - "GoogleUtilities/NSData+zlib (~> 7.7)"
   - FirebaseCrashlytics (10.25.0):
     - FirebaseCore (~> 10.25)
-    - FirebaseInstallations (~> 9.0)
+    - FirebaseInstallations (~> 10.0)
     - GoogleDataTransport (< 10.0.0, >= 9.1.4)
     - GoogleUtilities/Environment (~> 7.8)
     - nanopb (< 2.30910.0, >= 2.30908.0)
     - PromisesObjC (~> 2.1)
-  - FirebaseInstallations (9.3.0):
+  - FirebaseInstallations (10.0.0):
     - FirebaseCore (~> 10.25)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/UserDefaults (~> 7.7)

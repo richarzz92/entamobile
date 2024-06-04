@@ -47,7 +47,7 @@ PODS:
     - Firebase/Crashlytics (= 10.25.0)
     - firebase_core
     - Flutter
-  - FirebaseCore (9.3.0):
+  - FirebaseCore (10.25.0):
     - FirebaseCoreDiagnostics (~> 9.0)
     - FirebaseCoreInternal (~> 9.0)
     - GoogleUtilities/Environment (~> 7.7)
@@ -60,14 +60,14 @@ PODS:
   - FirebaseCoreInternal (9.3.0):
     - "GoogleUtilities/NSData+zlib (~> 7.7)"
   - FirebaseCrashlytics (10.25.0):
-    - FirebaseCore (~> 9.0)
+    - FirebaseCore (~> 10.25)
     - FirebaseInstallations (~> 9.0)
     - GoogleDataTransport (< 10.0.0, >= 9.1.4)
     - GoogleUtilities/Environment (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
     - PromisesObjC (~> 2.1)
   - FirebaseInstallations (9.3.0):
-    - FirebaseCore (~> 9.0)
+    - FirebaseCore (~> 10.25)
     - GoogleUtilities/Environment (~> 7.7)
     - GoogleUtilities/UserDefaults (~> 7.7)
     - PromisesObjC (~> 2.1)

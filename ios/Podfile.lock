@@ -50,11 +50,11 @@ PODS:
   - FirebaseCore (10.25.0):
     - FirebaseCoreDiagnostics (~> 9.0)
     - FirebaseCoreInternal (~> 9.0)
-    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/Logger (~> 7.7)
   - FirebaseCoreDiagnostics (9.3.0):
     - GoogleDataTransport (< 10.0.0, >= 9.1.4)
-    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/Logger (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
   - FirebaseCoreInternal (9.3.0):
@@ -63,12 +63,12 @@ PODS:
     - FirebaseCore (~> 10.25)
     - FirebaseInstallations (~> 9.0)
     - GoogleDataTransport (< 10.0.0, >= 9.1.4)
-    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.8)
     - nanopb (< 2.30910.0, >= 2.30908.0)
     - PromisesObjC (~> 2.1)
   - FirebaseInstallations (9.3.0):
     - FirebaseCore (~> 10.25)
-    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/UserDefaults (~> 7.7)
     - PromisesObjC (~> 2.1)
   - Flutter (1.0.0)
@@ -79,7 +79,7 @@ PODS:
     - Flutter
     - GoogleMaps
   - GoogleDataTransport (9.2.0):
-    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.8)
     - nanopb (< 2.30910.0, >= 2.30908.0)
     - PromisesObjC (< 3.0, >= 1.2)
   - GoogleMaps (5.2.0):
@@ -87,7 +87,7 @@ PODS:
   - GoogleMaps/Base (5.2.0)
   - GoogleMaps/Maps (5.2.0):
     - GoogleMaps/Base
-  - GoogleUtilities/Environment (7.7.0):
+  - GoogleUtilities/Environment (7.8.0):
     - PromisesObjC (< 3.0, >= 1.2)
   - GoogleUtilities/Logger (7.7.0):
     - GoogleUtilities/Environment

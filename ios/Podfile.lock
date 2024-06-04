@@ -69,7 +69,7 @@ PODS:
   - FirebaseInstallations (10.0.0):
     - FirebaseCore (~> 10.25)
     - GoogleUtilities/Environment (~> 7.12)
-    - GoogleUtilities/UserDefaults (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.8)
     - PromisesObjC (~> 2.1)
   - Flutter (1.0.0)
   - FMDB (2.7.5):
@@ -92,7 +92,7 @@ PODS:
   - GoogleUtilities/Logger (7.12.0):
     - GoogleUtilities/Environment
   - "GoogleUtilities/NSData+zlib (7.7.0)"
-  - GoogleUtilities/UserDefaults (7.7.0):
+  - GoogleUtilities/UserDefaults (7.8.0):
     - GoogleUtilities/Logger
   - image_picker_ios (0.0.1):
     - Flutter
